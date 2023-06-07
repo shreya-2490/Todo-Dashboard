@@ -37,7 +37,7 @@ const Registration = () => {
         console.log(actualData)
         document.getElementById("registration-form").reset()
         setError({ status: true, msg: "Registration Success", type: "success" })
-          navigate("/dashboard")
+          navigate("/")
       } else {
         setError({ status: true, msg: "Password Doesn't match", type: "error" })
       }

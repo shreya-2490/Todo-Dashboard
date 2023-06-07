@@ -19,7 +19,7 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/forgot" element={<Forgot />} />
             <Route path="/reset" element={<ResetPassword/>}/>
-        
+            
         </Routes>
       </BrowserRouter>
     </>
